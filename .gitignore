@@ -1,0 +1,16 @@
+# Środowisko wirtualne Pythona
+venv/
+.venv/
+env/
+
+# Cache biblioteki FastF1 (bardzo ważne!)
+cache/
+fastf1_cache/
+*.ff1pkl
+
+# Pliki tymczasowe Pythona i edytorów
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.ipynb_checkpoints/
