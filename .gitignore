@@ -1,16 +1,44 @@
-# Środowisko wirtualne Pythona
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
 venv/
 .venv/
 env/
+ENV/
 
-# Cache biblioteki FastF1 (bardzo ważne!)
-cache/
-fastf1_cache/
-*.ff1pkl
-
-# Pliki tymczasowe Pythona i edytorów
-__pycache__/
-*.py[cod]
+# IDE
 .vscode/
 .idea/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# FastF1 cache
+cache/
+fastf1_cache/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated plots
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Temporary files
+tmp/
+temp/
