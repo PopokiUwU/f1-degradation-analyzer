@@ -46,7 +46,7 @@ pip install fastf1 pandas numpy matplotlib
 Run the script and follow the prompts to select the season and Grand Prix:
 
 ```bash
-python tyre_degradation.py
+python main.py
 ```
 
 You will be prompted to enter:
